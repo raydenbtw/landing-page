@@ -79,7 +79,7 @@ sub {
     background-color: #3882f6;
     text-decoration: none;
     display: inline-block;
-    border: none;
+    /* border: none; */
     padding: 8px 35px;
     border-radius: 5px;
     font-weight: 600;
@@ -88,7 +88,7 @@ sub {
 .mid-top {
     display: flex;
     flex-direction: column;
-    padding: ;
+    height: 350px;
 }
 
 .info {
@@ -112,4 +112,101 @@ h2 {
 .card-img {
     width: 200px;
     border-radius: 5px;
+}
+
+.mid-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-items: center;
+    align-items: center;
+    max-height: 350px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 770px;
+}
+
+.quoter {
+    font-size: 24px;
+    /* font-weight: 600; */
+    align-self: flex-end;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0px 240px 0px;
+}
+
+.call {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 140px 50px;
+}
+
+.bot-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3 {
+    display: flex;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.action {
+    display: flex;
+    font-weight: lighter;
+    margin-right: 140px;
+}
+
+.bot-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-upper {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #F9F1F8;
+    padding: 8px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

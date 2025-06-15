@@ -146,6 +146,7 @@ h2 {
     font-size: 24px;
     /* font-weight: 600; */
     align-self: flex-end;
+    color: #1F2937;
 }
 
 .bot {
@@ -210,3 +211,4 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+

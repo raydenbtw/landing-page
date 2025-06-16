@@ -23,9 +23,11 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     background-color: #1F2937;
     margin-bottom: 130px;
     flex-shrink: 0;
+    height: 72px;
 }
 
 h1 {
